@@ -1,0 +1,7 @@
+def lucky_number_calculation(user_number) :
+  return user_number //5 ** 22 +4 - 15
+user_name = input('Provide your user name: ')
+user_number = input('Provide a number: ')
+user_number = int(user_number)
+lucky_number = lucky_number_calculation(user_number)
+print(f'Your lucky number is {lucky_number}')
